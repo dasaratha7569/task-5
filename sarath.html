@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        border: 3px solid peachpuff;
+        /* width: 100%; */
+        height: auto;
+        border-radius: 29px;
+        margin: 50px;
+    }
+    .im{
+        width: 120px;
+        height: 120px;
+        margin: 30px;
+        border-radius: 5px;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        font-size: 65px;
+        text-align: right;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 40px;
+        color: rgba(0,0,0,0.85);
+    }
+    .line{
+        border: 2px solid peachpuff;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    label{
+        margin-left: 40px;
+        font-weight: 800;
+        font-size: 22px;
+    }
+    #N{
+        height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 11.5%;
+    }
+    #Name{
+        height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+    }
+    #mail{ 
+        height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 11.2%;
+    }
+    #Phone{
+        height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 6.2%;
+        width: 50px;
+        
+    }
+    #Phone2{
+        height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        width: 330px;
+
+    }
+    
+   .f{
+    margin-left: 22.3%;
+   }
+   .l{
+    margin-left: 12%;
+   }
+   .Area{
+    margin-left: 20.3%;
+    font-size: 15px;
+   }
+   .no{
+    margin-left: 7%;
+    font-size: 15px;
+   }
+   #com{
+    height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 8%;
+        width: 400px;
+   }
+   #com2{
+    height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 20%;
+        width: 400px;
+   }
+   #s{
+    margin-left: 20%;
+   }
+   #com3{
+    height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        margin-left: 20%;
+        width: 200px;
+   }
+   #com4{
+    height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        width: 200px;
+   }
+   #s1{
+    margin-left: 19%;
+   }
+   #year{
+    height: 30px;
+    width: 200px;
+   }
+   #com5{
+    height: 30px;
+        border: 2px solid peachpuff;
+        border-radius: 5px;
+        margin: 4px;
+        width: 400px;
+
+   }
+   button{
+    margin-left: 30%;
+    width: 130px;
+    height: 50px;
+    border: 0px solid black;
+    background-color:  peachpuff;
+   }
+   
+</style>
+<body>
+    <div class="main">
+        <div class="head">
+            <img src="images/earth.jpg" alt="image" class="im">
+            <h1>Webinar Registration Form</h1>
+        </div>
+        <div class="line"></div><br><br>
+        <div class="content">
+            <form action="">
+                <label for="Name" >Name</label>
+                <input type="text" name="Name" id="N">
+                <input type="text" name="Name" id="Name"><br>
+                <span for="fname" class="f">First name</span>
+                <span for="lname" class="l">Last name</span><br><br>
+                <label for="mail" >Email</label>
+                <input type="email" name="mail" id="mail" size="60" placeholder="ex: myname@example.com"><br><br><br>
+                <label for="phone">Work Phone</label>
+                <input type="number" name="phone" id="Phone" size="1">--
+                <input type="number" name="phone2" id="Phone2" size="100"><br>
+                <span class="Area">Area code</span>
+                <span class="no">Phone number</span><br><br>
+                <label for="com" >Company</label>
+                <input type="text" name="com" id="com" ><br>
+                <span id="s">Street Address</span><br><br>
+                <input type="text" name="com" id="com2" ><br>
+                <span id="s">Street Address Line 2</span><br><br>
+                <input type="text" name="com" id="com3" >
+                <input type="text" name="com" id="com4" ><br>
+                <span id="s">City</span>
+                <span id="s1">State/pincode</span><br><br>
+                <input type="text" name="com" id="com3" >
+        <select id="year" name="YEAR" required>
+            <option value="I">Please select</option>
+            <option value="II">India</option>
+            <option value="III">Sri lanka</option>
+            <option value="IV" >S.Korea</option>
+        </select><br><br>
+        <label for="web" >Company Website</label>
+        <input type="text" name="com" id="com5" ><br><br><br>
+        <button type="submit">Submit</button><br><br><br>
+
+        
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</ht
